@@ -9,24 +9,48 @@
 <body>
     <header>
         <h1>Portifolio Web</h1>
+        <nav class="header-main-menu">
+            <ul class="header-menu">
+                <li><a href="#my_photo">Minha Foto</a></li>
+                <li><a href="#information">Informações</a></li>
+                <li><a href="#ability-list">Minhas Habilidades</a></li>
+            </ul>
+        </nav>
     </header>
     
     <main>
         <div class="main-perfil">
+            
             <div class="main-perfil-image">
-                <img src="./images/perfil.jpg" alt="Foto do Maykon Freitas" width="300px">
+                <img id="my_photo"src="./images/perfil.jpg" alt="Foto do Maykon Freitas" width="300px">
             </div>
 
             <div class="main-personal-information">
-                <h2>Maykon Ryan Freitas</h2>
-                <p class="main-perfil-description">
-                    "Tenho 20 anos, sou uma joven brasileiro e uma amande de tecnologia. Tenho aproximadamente 6 anos como desenvoldor, além de desenvolver Aplicações Web, tanto o Front-end como o Back-end, também sou um amante desenvoldor de jogos, em especial, games 2D."
-                </p>
-                <p><em>"A arte de programar consiste na arte de dominar e organizar a complexidade"</em></p>
-                <h3> Nacionalidade: Brasil</h3>
-                <h3>Cidade: Russas-CE</h3>
-                <h3>Email: maykon17programmer@gmail.com</h3>
-                <h3>Telefone: (88) 9.8155-2415</h3>
+                
+                <div>class="information">
+                    <h2 id="information" ><strong>Maykon Ryan Freitas</strong></h2>
+                    <p class="main-perfil-description">
+                        "Tenho 20 anos, sou uma joven brasileiro e uma amande de tecnologia. Tenho aproximadamente 6 anos como desenvoldor, além de desenvolver Aplicações Web, tanto o Front-end como o Back-end, também sou um amante desenvoldor de jogos, em especial, games 2D."
+                    </p>
+                    <p><em>"A arte de programar consiste na arte de dominar e organizar a complexidade"</em></p>
+                    <h4> Nacionalidade: Brasil</h3>
+                    <h4>Cidade: Russas-CE</h3>
+                    <h4>Email: maykon17programmer@gmail.com</h3>
+                    <h4>Telefone: (88) 9.8155-2415</h3>
+                    <h4>Blog Favorito: <a href="https://diolinux.com.br/" target="_blank">Diolinux</a></h4>
+                </div>
+                
+                <div class="ability-list">
+                    <h4 id="ability-list">Minhas Habilidades</h3>
+                    <ul class="main-perfil-list">
+                        <li>Tenho uma Habilidade em ensinar a outras pessoas</li>
+                        <li>Sou músico: <em>Saxofonista</em></li>
+                        <li>Um jodor de <strong>QUASE</strong> profissional de Pokemon</li>
+                        <li>Tenho a capacidade de aprender rápido</li>
+                        <li>Desenvolver <strong>Aplicações Web</strong> & <strong>Games</strong></li>
+                    </ul>
+                </div>
+                
             </div>
         </div>
     </main>
