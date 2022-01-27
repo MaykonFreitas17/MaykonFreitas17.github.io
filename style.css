@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+        
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+    text-align: justify;
+}
+
+body{
+    background-color: #191716;
+}
+
+.header-main {
+    width: 100%;
+    height: 100px;
+    background-color: #440D0F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-main-title {
+    width: 50%;
+    padding: 15px;
+}
+
+.header-main-menu {
+    width: 50%;
+}
+
+.header-menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.main-perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-perfil-picture{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-perfil-image {
+    width: 40%;
+    margin: 20px;
+}
+
+.main-perfil-name {
+    width: 40%;
+    margin: 20px;
+}
+
+#my_picture {
+    width: 300px;
+}
+
+.main-personal-div-formation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
